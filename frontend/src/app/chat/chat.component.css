@@ -1,223 +1,172 @@
-/* General reset for margins and paddings */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Page container */
+/* General page container */
 .page-container {
   position: relative;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f1f1f1;
-  font-family: 'Arial', sans-serif;
 }
 
-/* Chatbot button */
+/* Chatbot Button */
 .open-chat-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #0e76a8;
-  color: white;
+  background-color: #25d366;  /* WhatsApp Green */
   border: none;
-  padding: 15px 20px;
   border-radius: 50%;
-  font-size: 24px;
-  cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease-in-out;
-}
-
-.open-chat-btn:hover {
-  transform: scale(1.1);
-}
-
-/* Chatbot Popup */
-.chat-popup {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 320px;
-  max-height: 450px;
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  z-index: 1000;
-  max-width: 90%;
-}
-
-/* Chat header */
-.chat-header {
-  background-color: #0e76a8;
+  width: 60px;
+  height: 60px;
+  font-size: 28px;
   color: white;
   display: flex;
   align-items: center;
-  padding: 10px;
-  position: relative;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.open-chat-btn:hover {
+  background-color: #128c7e;  /* Darker green on hover */
+}
+
+/* Chat Popup */
+.chat-popup {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  width: 350px;
+  max-height: 500px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeIn 0.3s forwards;
+}
+
+/* Animation for smooth popup appearance */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Chat Header */
+.chat-header {
+  background-color: #128c7e;  /* WhatsApp Dark Green */
+  color: white;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .chat-avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  object-fit: cover;
   margin-right: 10px;
 }
 
 .chat-name {
-  font-size: 18px;
   font-weight: bold;
+  font-size: 16px;
 }
 
 .close-chat-btn {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #ff4d4d;
-  color: white;
+  background: none;
   border: none;
-  padding: 5px;
-  border-radius: 50%;
-  font-size: 18px;
+  color: white;
+  font-size: 20px;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .close-chat-btn:hover {
-  background-color: #ff3333;
+  color: #ddd;
 }
 
-/* Chat body */
+/* Chat Body */
 .chat-body {
-  flex-grow: 1;
-  padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  padding: 10px;
   overflow-y: auto;
+  max-height: 400px;
 }
 
-/* Messages section */
 .messages {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-height: 75%;
-  overflow-y: auto;
 }
 
-/* Individual message styling */
 .message {
+  padding: 10px;
+  border-radius: 8px;
   max-width: 75%;
-  padding: 10px 15px;
-  border-radius: 20px;
-  font-size: 16px;
-  line-height: 1.4;
   word-wrap: break-word;
-  background-color: #0e76a8;
+}
+
+/* Styles for the user's message */
+.user-message {
+  background-color: #25d366;  /* Green for user's message */
   color: white;
-  align-self: flex-end;
-  white-space: pre-wrap; /* Allows text to break lines */
-  animation: slideIn 0.5s ease-in-out;
+  align-self: flex-end; /* Align user's messages to the right */
 }
 
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+/* Styles for the bot's message */
+.bot-message {
+  background-color: #f0f0f0;  /* Light gray for bot's message */
+  color: #333;
+  align-self: flex-start; /* Align bot's messages to the left */
 }
 
-/* Typing indicator */
+/* Typing Indicator */
 .server-typing {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 5px 0;
-  font-size: 16px;
-  color: #0e76a8;
+  font-style: italic;
+  color: #888;
 }
 
-.server-typing span {
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin: 0 3px;
-  border-radius: 50%;
-  background-color: #0e76a8;
-  animation: blink 1s infinite;
-}
-
-.server-typing span:nth-child(2) {
-  animation-delay: 0.2s;
-}
-
-.server-typing span:nth-child(3) {
-  animation-delay: 0.4s;
-}
-
-@keyframes blink {
-  0%, 100% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-}
-
-/* Input field */
-input {
+/* Textarea for message input */
+textarea {
   width: 100%;
-  padding: 12px 15px;
-  font-size: 16px;
-  border-radius: 20px;
-  border: 2px solid #ddd;
-  outline: none;
-  transition: all 0.3s ease;
+  height: 40px;
+  resize: none;
+  padding: 10px;
   margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-input:focus {
-  border-color: #0e76a8;
-  box-shadow: 0 0 5px rgba(14, 118, 168, 0.5);
-}
-
-/* Send button */
 button {
-  background-color: #0e76a8;
+  margin-top: 10px;
+  background-color: #128c7e;  /* WhatsApp Green */
   color: white;
   border: none;
-  padding: 12px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  border-radius: 30px;
+  border-radius: 8px;
+  padding: 10px;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin-top: 10px;
 }
 
 button:hover {
-  background-color: #0b5d7f;
-  transform: scale(1.05);
+  background-color: #25d366;
 }
 
-button:active {
-  transform: scale(0.98);
-}
-
-/* Responsive for mobile */
-@media (max-width: 600px) {
+/* Media queries for responsiveness */
+@media screen and (max-width: 400px) {
   .chat-popup {
-    width: 90%;
+    width: 100%;
+    max-height: 90%;
+  }
+
+  .messages {
+    max-height: 300px;
   }
 }

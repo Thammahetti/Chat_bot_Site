@@ -11,7 +11,7 @@
     </div>
     <div class="chat-body">
       <div class="messages">
-        <div *ngFor="let msg of messages" class="message">
+        <div *ngFor="let msg of messages" class="message" [ngClass]="{'user-message': msg.startsWith('Tu:'), 'bot-message': !msg.startsWith('Tu:')}">
           {{ msg }}
         </div>
         <!-- Typing indicator -->

@@ -11,7 +11,7 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 # Funzione per inviare messaggio dal chatbot (ollama)
 def get_chatbot_response(user_input):
     messages = [
-        {"role": "user", "content": f"\n\nDomanda: {user_input}\nRisposta:"}
+        {"role": "user", "content": f"Rispondi alla seguente domanda usando solo informazioni relative agli Anni di Piombo se non centra niente allora non rispondere però rispondi a domande di presetazione o ringraziamenti  del utente (com'è stai ? o ciao). Rispondi in breve, più veloce possibile\n\nDomanda: {user_input}\nRisposta:"}
     ]
     response = ollama.chat(
         model='llama3',

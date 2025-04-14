@@ -1,12 +1,14 @@
 <div class="page-container">
-  <!-- Chatbot Button -->
-  <button class="open-chat-btn" (click)="openChat()">💬</button>
-  
+  <!-- Chatbot Button with Avatar -->
+  <button class="open-chat-btn" (click)="openChat()">
+    <img src="../../assets/storiprof.png" alt="Aldo Moro" class="chat-btn-avatar" />
+  </button>
+
   <!-- Chatbot Popup -->
   <div *ngIf="chatOpen" class="chat-popup">
     <div class="chat-header">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Aldo_Moro_portrait.jpg" alt="Aldo Moro" class="chat-avatar" />
-      <span class="chat-name">Piombobot</span>
+      <img src="../../assets/storiprof.png" alt="Aldo Moro" class="chat-avatar" />
+      <span class="chat-name">Prof. Storia</span>
       <button class="close-chat-btn" (click)="closeChat()">X</button>
     </div>
     <div class="chat-body">
@@ -15,10 +17,13 @@
           {{ msg }}
         </div>
         <!-- Typing indicator -->
-        <div *ngIf="isTyping" class="server-typing">Server is typing...</div>
+        <div *ngIf="isTyping" class="server-typing">Prof. Storia is typing...</div>
       </div>
-      <textarea placeholder="Type a message..." #message (input)="adjustHeight(message)" (keydown)="onKeydown($event, message)"></textarea>
-      <button (click)="sendMessage(message)">Send</button>
+      <!-- Input Row: Textarea + Button -->
+      <div class="input-row">
+        <textarea placeholder="Type a message..." #message (input)="adjustHeight(message)" (keydown)="onKeydown($event, message)"></textarea>
+        <button class="send-button" (click)="sendMessage(message)">Send</button>
+      </div>
     </div>
   </div>
 </div>

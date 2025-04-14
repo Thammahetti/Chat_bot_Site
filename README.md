@@ -1,7 +1,14 @@
 
-# 🧠 Chatbot Piombot
+# 🧠 Chatbot Prof. Storia
 
 Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a domande sugli **Anni di Piombo** in Italia. Il bot, impersonando il "Prof. Storia", fornisce risposte concise e pertinenti, utilizzando il modello LLaMA 3 tramite Ollama.
+
+
+
+![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
+
+
+![Sponsor](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
 
 ## 📁 Struttura del Progetto
 
@@ -33,9 +40,23 @@ Chat_bot_Site/
 └── req.txt
 ```
 
+
+
+![Banner 2](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
+
+
+![Sponsor](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
+
 ## 🚀 Installazione e Avvio
 
-### ⚙️ Backend (Flask + Ollama)
+#
+
+![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
+
+
+![Sponsor](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/337953836/original/82fadb0733c3e6adfad116ab37cc7297e2d159e8/create-top-automotive-car-dealership-social-media-banner-ads.png)
+
+## ⚙️ Backend (Flask + Ollama)
 
 1. **Avvia Ollama**:
    ```bash
@@ -53,7 +74,11 @@ Chat_bot_Site/
    python app.py
    ```
 
-### 🌐 Frontend (Angular)
+#
+
+![Banner 2](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
+
+## 🌐 Frontend (Angular)
 
 1. **Installa le dipendenze**:
    ```bash
@@ -69,6 +94,10 @@ Chat_bot_Site/
 3. **Accedi all'applicazione**:
    Visita `http://localhost:4200` nel tuo browser.
 
+
+
+![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
+
 ## 🤖 Funzionalità del Chatbot
 
 - **Nome del bot**: `Prof. Storia`
@@ -79,12 +108,20 @@ Chat_bot_Site/
 - **Lingua**: Italiano
 - **Risposte**: Concise e pertinenti
 
+
+
+![Banner 2](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
+
 ## 👥 Team di Sviluppo
 
 - **Thejan**
 - **Minasi**
 - **Carovelli**
 - **LaBarda**
+
+
+
+![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
 
 ## 📌 Note Aggiuntive
 

@@ -5,7 +5,7 @@ Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a do
 
 
 
-![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
+
 
 
 ![Sponsor](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
@@ -45,16 +45,13 @@ Chat_bot_Site/
 ![Banner 2](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
 
 
-![Sponsor](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
-
 ## 🚀 Installazione e Avvio
 
 #
 
-![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
 
 
-![Sponsor](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/337953836/original/82fadb0733c3e6adfad116ab37cc7297e2d159e8/create-top-automotive-car-dealership-social-media-banner-ads.png)
+
 
 ## ⚙️ Backend (Flask + Ollama)
 
@@ -76,7 +73,7 @@ Chat_bot_Site/
 
 #
 
-![Banner 2](https://email.uplers.com/blog/wp-content/uploads/2024/11/image7-1.gif)
+
 
 ## 🌐 Frontend (Angular)
 
@@ -121,7 +118,8 @@ Chat_bot_Site/
 
 
 
-![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
+
+![Sponsor](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/337953836/original/82fadb0733c3e6adfad116ab37cc7297e2d159e8/create-top-automotive-car-dealership-social-media-banner-ads.png)
 
 ## 📌 Note Aggiuntive
 
@@ -130,7 +128,4 @@ Chat_bot_Site/
 
 ---
 
-Per ulteriori dettagli su come utilizzare i file Markdown (`.md`), puoi consultare le seguenti risorse:
 
-- [Cos’è un file in formato MD e come aprirlo | Adobe Acrobat](https://www.adobe.com/it/acrobat/resources/document-files/text-files/md.html)
-- [File .md: cos’è l'estensione .md e come si apre - IONOS](https://www.ionos.it/digitalguide/siti-web/programmazione-del-sito-web/file-md/)

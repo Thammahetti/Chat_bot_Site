@@ -1,5 +1,5 @@
 
-# 🧠 Chatbot Prof. Storia
+# 🧠 Chatbot Piombot
 
 Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a domande sugli **Anni di Piombo** in Italia. Il bot, impersonando il "Prof. Storia", fornisce risposte concise e pertinenti, utilizzando il modello LLaMA 3 tramite Ollama.
 

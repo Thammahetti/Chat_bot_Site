@@ -94,6 +94,10 @@ Chat_bot_Site/
 
 #
 
+
+
+
+
 ## 🔗 Collegamento tra Front-end e Back-end
 
 Per garantire che il tuo client Angular comunichi correttamente con il server, segui questi passaggi:
@@ -108,8 +112,11 @@ Per garantire che il tuo client Angular comunichi correttamente con il server, s
    - Trova la riga con la configurazione del socket:
 
   ```bash
-      this.socket = io('https://5000-thammahetti-chatbotsite-aasn929c9qw.ws-eu118.gitpod.io/');
+  this.socket = io('https://5000-thammahetti-chatbotsite-aasn929c9qw.ws-eu118.gitpod.io/');
   ```
+
+
+
 
 
    

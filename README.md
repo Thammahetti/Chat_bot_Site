@@ -87,14 +87,14 @@ Chat_bot_Site/
 2. **Avvia il server Angular**:
    ```bash
    ng serve --disable-host-check
-   ```
+   
 
 3. **Accedi all'applicazione**:
    Visita `http://localhost:4200` nel tuo browser.
 
 #
 
-##🔗 Collegamento tra Front-end e Back-end
+## 🔗 Collegamento tra Front-end e Back-end
 
 Per garantire che il tuo client Angular comunichi correttamente con il server, segui questi passaggi:
 
@@ -107,8 +107,9 @@ Per garantire che il tuo client Angular comunichi correttamente con il server, s
    - Apri il file `chat.component.ts`.
    - Trova la riga con la configurazione del socket:
 
-  ```typescript
-  this.socket = io('https://5000-thammahetti-chatbotsite-aasn929c9qw.ws-eu118.gitpod.io/');
+  ```bash
+      this.socket = io('https://5000-thammahetti-chatbotsite-aasn929c9qw.ws-eu118.gitpod.io/');
+  ```
 
 
    

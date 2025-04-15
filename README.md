@@ -8,7 +8,7 @@ Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a do
 
 
 
-![Sponsor]([https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg](https://www.fastestvpnguide.com/wp-content/uploads/2020/11/nordvpn-free-trial.jpg))
+![Sponsor]([https://m.media-amazon.com/images/I/71E7jCmcdML._AC_UF1000,1000_QL80_.jpg])
 
 ## 📁 Struttura del Progetto
 

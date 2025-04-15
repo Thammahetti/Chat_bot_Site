@@ -92,8 +92,6 @@ Chat_bot_Site/
 3. **Accedi all'applicazione**:
    Visita `http://localhost:4200` nel tuo browser.
 
-   ```
-
 #
 
 ## 🔗 Collegamento tra Front-end e Back-end

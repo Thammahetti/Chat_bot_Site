@@ -8,7 +8,7 @@ Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a do
 
 
 
-![Sponsor](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
+![Sponsor]([https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg](https://www.fastestvpnguide.com/wp-content/uploads/2020/11/nordvpn-free-trial.jpg))
 
 ## 📁 Struttura del Progetto
 
@@ -119,7 +119,7 @@ Chat_bot_Site/
 
 
 
-![Sponsor](https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/337953836/original/82fadb0733c3e6adfad116ab37cc7297e2d159e8/create-top-automotive-car-dealership-social-media-banner-ads.png)
+![Sponsor]([https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs3/337953836/original/82fadb0733c3e6adfad116ab37cc7297e2d159e8/create-top-automotive-car-dealership-social-media-banner-ads.png](https://m.media-amazon.com/images/I/71E7jCmcdML._AC_UF1000,1000_QL80_.jpg))
 
 ## 📌 Note Aggiuntive
 

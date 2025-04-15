@@ -6,7 +6,8 @@ Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a do
 
 
 
-![Sponsor](https://media2.giphy.com/media/1iX4DlcbWXDFKfmrp7/giphy-downsized.gif)
+<img src="https://media2.giphy.com/media/1iX4DlcbWXDFKfmrp7/giphy-downsized.gif" width="300">
+
 
 
 

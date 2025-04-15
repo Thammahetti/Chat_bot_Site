@@ -92,7 +92,27 @@ Chat_bot_Site/
 3. **Accedi all'applicazione**:
    Visita `http://localhost:4200` nel tuo browser.
 
+   ```
 
+#
+
+## 🔗 Collegamento tra Front-end e Back-end
+
+Per garantire che il tuo client Angular comunichi correttamente con il server, segui questi passaggi:
+
+## 1️⃣ Verificare che il backend sia pubblico
+- Assicurati che il backend sia accessibile pubblicamente.
+- Controlla la presenza del **lucchetto** accanto all'URL nella barra degli indirizzi (indica connessione HTTPS sicura).
+- Se la porta è chiusa, verifica le impostazioni del server e aprila manualmente, se necessario.
+
+## 2️⃣ Inserire l'indirizzo corretto nel Front-end
+- Apri il file `chat.component.ts`.
+- Trova la riga con la configurazione del socket:
+
+  ```typescript
+  this.socket = io('https://5000-thammahetti-chatbotsite-aasn929c9qw.ws-eu118.gitpod.io/');
+
+   
 
 ![Banner 1](https://www.wordstream.com/wp-content/uploads/2021/07/banner-ads-examples-ncino.jpg)
 

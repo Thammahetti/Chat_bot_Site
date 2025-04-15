@@ -6,9 +6,9 @@ Un chatbot interattivo basato su Flask e Angular, progettato per rispondere a do
 
 
 
-![Sponsor](https://m.media-amazon.com/images/I/71E7jCmcdML._AC_UF1000,1000_QL80_.jpg)
+![Sponsor](https://media2.giphy.com/media/1iX4DlcbWXDFKfmrp7/giphy-downsized.gif)
 
-![Sponsor]([https://m.media-amazon.com/images/I/71E7jCmcdML._AC_UF1000,1000_QL80_.jpg])
+
 
 ## 📁 Struttura del Progetto
 

@@ -143,8 +143,8 @@ Per garantire che il tuo client Angular comunichi correttamente con il server, s
 - **Minasi**
 - **Carovelli**
 - **LaBarda**
-
-
+- **Santonia**
+- **Manethonia**
 
 
 ![Sponsor](https://gaming-cdn.com/images/products/12406/616x353/nordvpn-2-anni-di-abbonamento-2-years-pc-gioco-cover.jpg?v=1705587183)

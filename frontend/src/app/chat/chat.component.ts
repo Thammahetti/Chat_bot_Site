@@ -15,7 +15,7 @@ export class ChatComponent implements OnInit {
 
   ngOnInit() {
     // Connessione al server Flask con Socket.IO (usa HTTPS)
-    this.socket = io('https://5000-thammahetti-chatbotsite-aasn929c9qw.ws-eu118.gitpod.io/');  // Cambia l'URL se necessario
+    this.socket = io('https://5000-thammahetti-chatbotsite-0vumz3ob8ej.ws-eu118.gitpod.io');  // Cambia l'URL se necessario
 
     // Ascolta i messaggi ricevuti dal server (chatbot)
     this.socket.on('message', (msg: string) => {

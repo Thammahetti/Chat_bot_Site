@@ -2,6 +2,7 @@ from flask import Flask
 from flask_socketio import SocketIO, send, emit
 from flask_cors import CORS
 import threading
+from ollama import Client
 import ollama
 
 app = Flask(__name__)
@@ -13,10 +14,16 @@ def get_chatbot_response(user_input):
     messages = [
         {"role": "user", "content": f"Rispondi alla seguente domanda usando solo informazioni relative agli Anni di Piombo se non centra niente allora non rispondere però rispondi a domande di presetazione o ringraziamenti  del utente (com'è stai ? o ciao). Rispondi in breve, più veloce possibile\n\nDomanda: {user_input}\nRisposta:"}
     ]
-    response = ollama.chat(
-        model='llama3',
-        messages=messages,
-        stream=False
+    client = Client(
+        host='http://localhost:11434',
+        headers={'x-some-header': 'some-value'}
+    )
+    response = client.chat(model='llama3', messages=[
+        {
+            'role': 'user',
+            'content': f'{messages}',
+        },
+    ]
     )
 
     print("🔍 Risposta completa da Ollama:", response)

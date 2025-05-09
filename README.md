@@ -61,10 +61,16 @@ Chat_bot_Site/
    cd backend/
    sh ollama.sh
    ```
+   **-In un Nuovo Bash**
+     ```bash
+     ollama run llama3
+   ```
 
 2. **Installa le dipendenze**:
    ```bash
    pip install -r requirements.txt
+
+   
    ```
 
 3. **Esegui l'app Flask**:
@@ -83,13 +89,19 @@ Chat_bot_Site/
    cd frontend/
    sh req.sh
    ```
-
-2. **Avvia il server Angular**:
+2. **Installare ultime librerie**:
    ```bash
+      cd /workspace/Chat_bot_Site
+      pip install -r req.txt 
+   ```
+
+3. **Avvia il server Angular**:
+   ```bash
+   cd frontend/
    ng serve --disable-host-check
    
 
-3. **Accedi all'applicazione**:
+4. **Accedi all'applicazione**:
    Visita `http://localhost:4200` nel tuo browser.
 
 #
